@@ -13,7 +13,7 @@
         <description>This library extends Metrics.NET with Graphite reporting capabilities</description>
         <summary>Metrics.NET Graphite reporter</summary>
         <copyright>Iulian Margarintescu, The Recognos Metrics.NET Team</copyright>
-        <tags>graphite, metrics, measurements, charts, timer, histogram, duration, graphite, health checks</tags>
+        <tags>graphite, metrics, measurements, charts, timer, histogram, duration, health checks</tags>
         <dependencies>
           <dependency id="Metrics.NET" version="0.4.8-pre" />
         </dependencies>
