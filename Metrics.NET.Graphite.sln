@@ -5,6 +5,26 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metrics.NET.Graphite", "Src\Metrics.NET.Graphite\Metrics.NET.Graphite.csproj", "{FC53B6C4-F205-46E6-A83D-4478C579C04A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1EB0EBB9-8F03-405E-A3FE-916BDAE82467}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{B313FF19-F804-4896-BB7D-203D158959FB}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		build.sh = build.sh
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Publishing", "Publishing", "{D29080EB-D065-4B9F-A04C-C3EF6DD6CFF1}"
+	ProjectSection(SolutionItems) = preProject
+		create-nuget.bat = create-nuget.bat
+		Publishing\Metrics.NET.Graphite.nuspec = Publishing\Metrics.NET.Graphite.nuspec
+		Publishing\push-nuget.bat = Publishing\push-nuget.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

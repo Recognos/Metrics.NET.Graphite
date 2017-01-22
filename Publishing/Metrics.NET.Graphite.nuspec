@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+    <metadata>
+        <id>Metrics.NET.Graphite</id>
+        <version>0.4.8-pre</version>
+        <title>Metrics.NET.Graphite</title>
+        <authors>iulian.margarintescu, The Recognos Metrics.NET Team</authors>
+        <owners>Iulian Margarintescu, The Recognos Metrics.NET Team</owners>
+        <licenseUrl>https://github.com/Recognos/Metrics.NET.Graphite/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/Recognos/Metrics.NET.Graphite</projectUrl>
+        <iconUrl>http://www.erata.net/Metrics.NET/metrics_32.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>This library extends Metrics.NET with Graphite reporting capabilities</description>
+        <summary>Metrics.NET Graphite reporter</summary>
+        <copyright>Iulian Margarintescu, The Recognos Metrics.NET Team</copyright>
+        <tags>graphite, metrics, measurements, charts, timer, histogram, duration, graphite, health checks</tags>
+        <dependencies>
+          <dependency id="Metrics.NET" version="0.4.8-pre" />
+        </dependencies>
+    </metadata>
+    <files>
+      <file src="lib\net45\Metrics.NET.Graphite.dll" target="lib\net45\Metrics.NET.Graphite.dll" />
+      <file src="lib\net45\Metrics.NET.Graphite.pdb" target="lib\net45\Metrics.NET.Graphite.pdb" />
+      <file src="lib\net45\Metrics.NET.Graphite.XML" target="lib\net45\Metrics.NET.Graphite.XML" />
+    </files>
+</package>
