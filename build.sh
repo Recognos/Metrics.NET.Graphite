@@ -1,4 +1,4 @@
-mono .nuget/NuGet.exe restore Metrics.sln 
+mono .nuget/NuGet.exe restore Metrics.NET.Graphite.sln 
 
-xbuild Metrics.Sln /p:Configuration="Debug"
-xbuild Metrics.Sln /p:Configuration="Release"
+xbuild Metrics.NET.Graphite.Sln /p:Configuration="Debug"
+xbuild Metrics.NET.Graphite.Sln /p:Configuration="Release"
