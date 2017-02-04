@@ -1,1 +1,1 @@
-..\.nuget\nuget.exe push Metrics.NET.Graphite.0.4.8-pre.nupkg
+..\.nuget\nuget.exe push Metrics.NET.Graphite.0.5.0-pre.nupkg -Source https://www.nuget.org
