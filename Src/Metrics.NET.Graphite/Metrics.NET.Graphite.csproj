@@ -34,6 +34,10 @@
     <DocumentationFile>..\..\bin\Release\Metrics.NET.Graphite.XML</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Metrics, Version=0.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\Metrics.NET.0.5.0-pre\lib\net45\Metrics.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
   </ItemGroup>
@@ -49,6 +53,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TcpGraphiteSender.cs" />
     <Compile Include="UdpGraphiteSender.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
