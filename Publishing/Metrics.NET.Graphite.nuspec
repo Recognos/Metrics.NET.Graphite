@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
     <metadata>
         <id>Metrics.NET.Graphite</id>
-        <version>0.5.0-pre</version>
+        <version>0.5.0</version>
         <title>Metrics.NET.Graphite</title>
         <authors>iulian.margarintescu, The Recognos Metrics.NET Team</authors>
         <owners>Iulian Margarintescu, The Recognos Metrics.NET Team</owners>
@@ -15,7 +15,7 @@
         <copyright>Iulian Margarintescu, The Recognos Metrics.NET Team</copyright>
         <tags>graphite, metrics, measurements, charts, timer, histogram, duration, health checks</tags>
         <dependencies>
-          <dependency id="Metrics.NET" version="0.5.0-pre" />
+          <dependency id="Metrics.NET" version="0.5.0" />
         </dependencies>
     </metadata>
     <files>
